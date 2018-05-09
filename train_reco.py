@@ -4,7 +4,6 @@ import numpy as np
 import pickle
 from src.lib import detect_face
 
-
 dictionary_people = dict()
 
 def prepare_training_data():
@@ -36,7 +35,7 @@ def prepare_training_data():
             image = cv2.imread(image_path)
 
             #detect face
-            face, rect = detect_face(image)
+            face, _ = detect_face(image)
 
             if face is not None:
                 #add face to list of faces

@@ -5,11 +5,13 @@ import pickle
 from src.lib import detect_face
 
 
+
 face_recognizer = cv2.face.LBPHFaceRecognizer_create()
 face_recognizer.read('model/model.xml')
 
 with open('model/dict.pickle', 'rb') as handle:
     dictionary_people = pickle.load(handle)
+
 
 def draw_rectangle(img, rect):
     (x, y, w, h) = rect
