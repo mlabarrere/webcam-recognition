@@ -72,3 +72,4 @@ face_recognizer.save('model/model.xml')
 
 with open('model/dict.pickle', 'wb') as handle:
     pickle.dump(dictionary_people, handle, protocol=pickle.HIGHEST_PROTOCOL)
+    
