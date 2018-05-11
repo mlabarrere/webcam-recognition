@@ -180,7 +180,7 @@ Made with ❤ by Micky
 
 ## Acknowledgments
 
-* @MAmineA
+* [@MAmineA](https://github.com/MAmineA)
 * Hat tip to anyone who's code was used
 * Inspiration
 * etc
