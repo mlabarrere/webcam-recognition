@@ -1,12 +1,12 @@
 # Webcam Recognition
-A tool for detecting people in front of your webcam
+A tool for detecting who is in front of your webcam
 
 [![CodeFactor](https://www.codefactor.io/repository/github/mlabarrere/webcam-recognition/badge)](https://www.codefactor.io/repository/github/mlabarrere/webcam-recognition)  [![BCH compliance](https://bettercodehub.com/edge/badge/mlabarrere/webcam-recognition?branch=master)](https://bettercodehub.com/)
 
 
 ## Download
 
-To get source code, run:
+To get the source code, run:
 ```
 git clone https://github.com/mlabarrere/webcam-recognition.git
 ```
@@ -49,13 +49,13 @@ Webcam Recognition
 │       │   You will populate it
 │  
 └───model
-│       │   It will populate by it's own
+│       │   It will populate on its own
 │  
 ```
 
 ### Installing
 
-First, let install the required libraries
+First, let's install the required libraries
 
 ```shell
 cd yourDirectory/webcam-recognition/requirements.txt
@@ -67,7 +67,7 @@ then
 pip install -r requirements.txt
 ```
 
-Cool, you got everything ready to run the program
+Cool, you've got everything ready to run the program
 
 ### Train your model
 
@@ -90,7 +90,7 @@ data
 │       │   picture_with_whatever_name_or_classic_format.jpg
 ```
 
-Nice, it seems you are ready to train your model now.
+Nice, it seems that you are ready to train your model now.
 
 Ok, then you just have to `cd` to the root of the repository, and run:
 
@@ -98,7 +98,7 @@ Ok, then you just have to `cd` to the root of the repository, and run:
 python train_reco.py
 ```
 
-The prompt will tell you things like:
+The prompt will show you things like:
 
 ```
 Preparing data...
@@ -124,12 +124,12 @@ The thing is, Haar is not Google's top neural networks, hence you need to help h
 
 * Crop your pictures to avoid loosing training examples
   
-  If the prompt prints this `Warning : Impossible to find Paolo`, it means that on a picture, he wasn't able to recognise anyone. Meaning you just lost a training example.
+  If the prompt prints this `Impossible to find Paolo`, it means that on a picture, he wasn't able to recognise anyone. Meaning you just lost a training example.
 
 
 * Turn lights on and show yourself
 
-The model will have hard time recognising you in a middle of the night, or if you have changed drastically from your training pictures until now. Ex : You just shaved your beloved beard, you have no longer skater's long hairs, etc...
+The model will have hard time recognising you in a middle of the night, or if you have changed drastically from your training pictures. Ex : You just shaved your beloved beard, you have no longer a skater's long hair, etc...
 
 
 * Avoid twins
@@ -145,7 +145,7 @@ You have now the folder `model` filled with two files:
 
 But you don't have to care about it.
 
-Now, let see how the model recognise you:
+Now, let's see how the model recognizes you:
 
 ```shell
 python test_reco.py
@@ -153,7 +153,7 @@ python test_reco.py
 
 You'll see the webcam fire, and see yourself in a window, with a green box around your face.
 
-Does the model recognises you? If not, you need to train it better, with more and better pictures. 
+Does the model recognize you? If not, you need to train it better, with more and better pictures. 
 
 
 
@@ -161,7 +161,7 @@ Thanks for reading.
 
 
 
-Sorry for the long post, here a potatoe: 🥔
+Sorry for the long post, here is a potatoe: 🥔
 
 
 
@@ -179,7 +179,7 @@ This project is licensed under the Apache 2 License - see the [LICENSE.md](https
 Made with ❤ by Micky
 
 
-# Down there, everything is false yet
+# Down there, everything is still under development
 
 ## Running the tests - Need Help
 
