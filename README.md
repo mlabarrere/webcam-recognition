@@ -178,45 +178,9 @@ This project is licensed under the Apache 2 License - see the [LICENSE.md](https
 
 Made with ❤ by Micky
 
-
-# Down there, everything is still under development
-
-## Running the tests - Need Help
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-
-
 ## Acknowledgments
 
+* @MAmineA
 * Hat tip to anyone who's code was used
 * Inspiration
 * etc
