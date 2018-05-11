@@ -125,6 +125,11 @@ The thing is, Haar is not Google's top neural networks, hence you need to help h
   If the prompt prints this `Impossible to find Paolo`, it means that on a picture, he wasn't able to recognise anyone. Meaning you just lost a training example.
 
 
+* Turn lights on and show yourself
+
+The model will have hard time recognising you in a middle of the night, or if you have changed drastically from your training pictures until now. Ex : You just shaved your beloved beard, you have no longer skater's long hairs, etc...
+
+
 * Avoid twins
 
 Well, because... They are twins.
