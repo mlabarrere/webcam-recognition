@@ -1,9 +1,8 @@
 # Webcam Recognition
-A tool for detecting people
+A tool for detecting people in front of your webcam
 
 [![CodeFactor](https://www.codefactor.io/repository/github/mlabarrere/webcam-recognition/badge)](https://www.codefactor.io/repository/github/mlabarrere/webcam-recognition)  [![BCH compliance](https://bettercodehub.com/edge/badge/mlabarrere/webcam-recognition?branch=master)](https://bettercodehub.com/)
 
-Made with ❤ by Micky
 
 ## Download
 
@@ -177,7 +176,7 @@ See also the list of [contributors](https://github.com/mlabarrere/webcam-recogni
 This project is licensed under the Apache 2 License - see the [LICENSE.md](https://github.com/mlabarrere/webcam-recognition/LICENSE.md) file for details
 
 
-
+Made with ❤ by Micky
 
 
 # Down there, everything is false yet
