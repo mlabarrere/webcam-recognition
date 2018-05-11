@@ -56,8 +56,14 @@ First, let install the required libraries
 
 ```shell
 cd to\the\directory\where\requirements.txt\is\located
+```
+
+then
+
+```python
 pip install -r requirements.txt
 ```
+
 
 End with an example of getting some data out of the system or using it for a little demo
 
