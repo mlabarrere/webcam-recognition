@@ -169,6 +169,3 @@ Made with ❤ by Micky
 ## Acknowledgments
 
 * [@MAmineA](https://github.com/MAmineA)
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
