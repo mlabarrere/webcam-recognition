@@ -27,7 +27,6 @@ Webcam Recognition
 │       │   lib.py
 │  
 └───haar
-
 │       │  haarcascade_frontalface_alt.xml
 │       │  haarcascade_frontalface_alt2.xml
 │       │  haarcascade_frontalface_alt_tree.xml
