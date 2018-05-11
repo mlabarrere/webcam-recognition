@@ -110,11 +110,11 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 * **Mickaël Labarrère** - [mlabarrere](https://github.com/mlabarrere)
 
-See also the list of [contributors](https://github/mlabarrere/webcam-recognition/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/mlabarrere/webcam-recognition/graphs/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the Apache 2 License - see the [LICENSE.md](https://github.com/mlabarrere/webcam-recognition/LICENSE.md) file for details
 
 ## Acknowledgments
 
