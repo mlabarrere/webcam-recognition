@@ -19,8 +19,6 @@ def prepare_training_data():
     print('Training for {}'.format(', '.join(subject_folder_names)))
     for folder_name in subject_folder_names:
 
-        print('{} is number {}'.format(folder_name, nb_people))
-
         dictionary_people[nb_people] = folder_name
         
         folder_path = os.path.join(dir_name, folder_name)

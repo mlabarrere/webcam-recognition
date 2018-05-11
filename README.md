@@ -104,9 +104,8 @@ The prompt will tell you things like:
 ```
 Preparing data...
 Training for Pepito, Paolo          # Check if this is ok
-Pepito is number 0                  # This is just a mapper for the test_reco.py
 [ INFO:0] Initialize OpenCL runtime...   # You just don't care about it
-Paolo is number 1
+
 Data prepared
 Total faces:  35                    # Here, it will tell you how many faces and label the program found
 Total labels:  35
