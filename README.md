@@ -9,10 +9,8 @@ Made with ❤ by Micky
 
 To get source code, run:
 ```
-https://github.com/mlabarrere/webcam-recognition.git
+git clone https://github.com/mlabarrere/webcam-recognition.git
 ```
-
-
 
 ## Project Structure
 
@@ -110,9 +108,9 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Mickaël Labarrère** - [mlabarrere](https://github.com/mlabarrere)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github/mlabarrere/webcam-recognition/contributors) who participated in this project.
 
 ## License
 
