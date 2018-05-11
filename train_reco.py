@@ -8,6 +8,8 @@ dictionary_people = dict()
 
 dir_name = "data"
 
+subject_folder_names=os.listdir(dir_name)
+
 def prepare_training_data():    
     nb_people = 0
     faces, labels = [], []
@@ -35,19 +37,18 @@ def prepare_training_data():
 print("Preparing data...")
 print('Training for {}'.format(', '.join(subject_folder_names)))
 faces, labels = prepare_training_data()
-print("Data prepared")
+print("Data prepared\n")
 
-#print total faces and labels
-print("Total faces: ", len(faces))
-print("Total labels: ", len(labels))
-
-
+print("Training the model...")
 face_recognizer = cv2.face.LBPHFaceRecognizer_create()
 
 face_recognizer.train(faces, np.array(labels))
+print("Training complete\n")
 
+print("Saving model...")
 face_recognizer.save('model/model.xml')
 
 with open('model/dict.pickle', 'wb') as handle:
     pickle.dump(dictionary_people, handle, protocol=pickle.HIGHEST_PROTOCOL)
-    
+
+print("Saving done")
