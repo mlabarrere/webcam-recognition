@@ -21,7 +21,7 @@ Webcam Recognition
 │   requirements.txt
 │   setup.py (To Do)
 │   LICENSE.md
-
+│
 └───src
 │       │   __init__.py
 │       │   lib.py
@@ -37,7 +37,6 @@ Webcam Recognition
 │  
 └───model
 │       │   It will populate on its own
-│  
 ```
 
 ### Installing
