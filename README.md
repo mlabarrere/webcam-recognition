@@ -134,7 +134,7 @@ Well, because... They are twins.
 
 You have now the folder `model` filled with two files:
 1. `model.xml` : The model :)
-2. `dict.pickle` : The mapper, because the model can associate only faces with numbers, this dictionary will map number to faces.
+2. `dict.pickle` : The mapper, because the model can associate only faces with numbers, this dictionary will map numbers to faces.
 
 But you don't have to care about it.
 
@@ -148,11 +148,15 @@ You'll see the webcam fire, and see yourself in a window, with a green box aroun
 
 Does the model recognises you? If not, you need to train it better, with more and better pictures. 
 
+
+
 Thanks for reading.
 
-Sorry for the long post, here a potatoe:
 
-🥔
+
+Sorry for the long post, here a potatoe: 🥔
+
+
 
 ## Authors
 
