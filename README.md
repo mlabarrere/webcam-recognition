@@ -19,9 +19,9 @@ Webcam Recognition
 │   test_reco.py
 │   train_reco.py
 │   README.md (To Complete)
-│   requirements.txt (To Do)
+│   requirements.txt
 │   setup.py (To Do)
-│   LICENSE    
+│   LICENSE.md
 
 └───src
 │       │   __init__.py
@@ -52,18 +52,11 @@ Webcam Recognition
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
+First, let install the required libraries
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
+```shell
+cd to\the\directory\where\requirements.txt\is\located
+pip install -r requirements.txt
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
