@@ -66,7 +66,7 @@ Cool, you got everythong ready to run the program
 
 ### Train your model
 
-The model is based on [Haar like features] (https://en.wikipedia.org/wiki/Haar-like_feature), hence, you need to train your model.
+The model is based on [Haar like features](https://en.wikipedia.org/wiki/Haar-like_feature), hence, you need to train your model.
 
 For this, you need to gather pictures of you and your friends (ask them before). Then put all thoses pictures into separated named folders ìnto the `data` folder.
 
@@ -95,7 +95,7 @@ python train_reco.py
 
 The prompt will tell you things like:
 
-```shell
+```
 Preparing data...
 Training for Pepito, Paolo          # Check if this is ok
 Pepito is number 0                  # This is just a mapper for the test_reco.py
@@ -108,8 +108,16 @@ Total labels:  35
 
 #### Train your model - Best Practices
 
+The thing is, Haar is not Google's top neural networks, hence you need to help him to do his work.
 
-Impossible to find Paolo
+1. Balance the number of pictures over people to reduce over/under fitting.
+  Assume Pépito has 30 pictures to train on, and Paolo only 5, you can be sure the model will say everyone is Pépito.
+
+2. Crop your pictures to avoid loosing training examples
+  If the prompt prints this `Impossible to find Paolo`, it means that on a picture, he wasn't able to recognise anyone. Meaning you just lost a training example.
+
+
+
 
 # Down there, everything is false yet
 
