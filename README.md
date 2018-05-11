@@ -60,7 +60,7 @@ cd to\the\directory\where\requirements.txt\is\located
 
 then
 
-```python
+```shell
 pip install -r requirements.txt
 ```
 
