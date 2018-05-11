@@ -4,11 +4,14 @@ import numpy as np
 import pickle
 from src.lib import detect_face
 
-dictionary_people = dict()
+github_readme = "https://github.com/mlabarrere/webcam-recognition/blob/master/README.md"
 
+dictionary_people = dict()
 dir_name = "data"
 
-subject_folder_names=os.listdir(dir_name)
+subject_folder_names = os.listdir(dir_name)
+
+assert subject_folder_names, "You forgot to place a training folder.\nPlease refer to {}".format(github_readme)
 
 def prepare_training_data():    
     nb_people = 0
@@ -19,6 +22,8 @@ def prepare_training_data():
         folder_path = os.path.join(dir_name, folder_name)
         subject_images_names = os.listdir(folder_path)
 
+        assert subject_images_names, "You forgot to place training pictures inside the {}'s folder.\nPlease refer to {}".format(folder_name, github_readme)
+
         for image_name in subject_images_names:
             image_path = os.path.join(folder_path,image_name)
             image = cv2.imread(image_path)
@@ -28,7 +33,7 @@ def prepare_training_data():
                 faces.append(face)
                 labels.append(nb_people)
             else:
-                print("Impossible to find {}".format(folder_name))
+                print("Warning : Impossible to find {}".format(folder_name))
           
         nb_people +=1
     
