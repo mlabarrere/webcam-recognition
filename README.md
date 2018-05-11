@@ -48,14 +48,12 @@ Webcam Recognition
 
 ```
 
-# Down there, everything is false yet
-
 ### Installing
 
 First, let install the required libraries
 
 ```shell
-cd to\the\directory\where\requirements.txt\is\located
+cd yourDirectory/webcam-recognition/requirements.txt
 ```
 
 then
@@ -66,6 +64,10 @@ pip install -r requirements.txt
 
 
 End with an example of getting some data out of the system or using it for a little demo
+
+
+
+# Down there, everything is false yet
 
 ## Running the tests
 
