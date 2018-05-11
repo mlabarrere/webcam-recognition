@@ -68,7 +68,7 @@ then
 pip install -r requirements.txt
 ```
 
-Cool, you got everythong ready to run the program
+Cool, you got everything ready to run the program
 
 ### Train your model
 
@@ -151,7 +151,7 @@ Does the model recognises you? If not, you need to train it better, with more an
 
 Thanks for reading.
 
-Sorry for the long post, here a potatoe
+Sorry for the long post, here a potatoe:
 
 🥔
 
@@ -166,9 +166,12 @@ See also the list of [contributors](https://github.com/mlabarrere/webcam-recogni
 This project is licensed under the Apache 2 License - see the [LICENSE.md](https://github.com/mlabarrere/webcam-recognition/LICENSE.md) file for details
 
 
+
+
+
 # Down there, everything is false yet
 
-## Running the tests
+## Running the tests - Need Help
 
 Explain how to run the automated tests for this system
 
