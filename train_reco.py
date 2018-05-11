@@ -5,15 +5,13 @@ import pickle
 from src.lib import detect_face
 
 dictionary_people = dict()
+dir_name = "data"
 
-def prepare_training_data():
-    
+def prepare_training_data():    
     nb_people = 0
 
-    dir_name = "data"
-    faces = []
-    labels = []
-
+    faces, labels = [], []
+    
     subject_folder_names = os.listdir(dir_name)
 
     print('Training for {}'.format(', '.join(subject_folder_names)))
@@ -42,14 +40,8 @@ def prepare_training_data():
                 labels.append(nb_people)
             else:
                 print("Impossible to find {}".format(folder_name))
-                #cv2.imshow("Training on image...", image)
-                #cv2.waitKey(200)
           
         nb_people = nb_people+1
-
-    cv2.destroyAllWindows()
-    cv2.waitKey(1)
-    cv2.destroyAllWindows()
     
     return faces, labels
 
