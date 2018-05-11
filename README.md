@@ -62,10 +62,54 @@ then
 pip install -r requirements.txt
 ```
 
+Cool, you got everythong ready to run the program
 
-End with an example of getting some data out of the system or using it for a little demo
+### Train your model
+
+The model is based on [Haar like features] (https://en.wikipedia.org/wiki/Haar-like_feature), hence, you need to train your model.
+
+For this, you need to gather pictures of you and your friends (ask them before). Then put all thoses pictures into separated named folders ìnto the `data` folder.
+
+To train your model to detect Pépito and Paolo, do something like this:
+
+```
+data
+└───Pepito
+│       │   picture1.jpg
+│       │   picture2.png
+│       │   picture_with_whatever_name_or_classic_format.jpg
+│
+└───Paolo
+│       │   picture1.jpg
+│       │   picture2.png
+│       │   picture_with_whatever_name_or_classic_format.jpg
+```
+
+Nice, it seems you are ready to train your model now.
+
+Ok, then you just have to `cd` to the root of the repository, and run:
+
+```shell
+python train_reco.py
+```
+
+The prompt will tell you things like:
+
+```shell
+Preparing data...
+Training for Pepito, Paolo          # Check if this is ok
+Pepito is number 0                  # This is just a mapper for the test_reco.py
+[ INFO:0] Initialize OpenCL runtime...   # You just don't care about it
+Paolo is number 1
+Data prepared
+Total faces:  35                    # Here, it will tell you how many faces and label the program found
+Total labels:  35
+```
+
+#### Train your model - Best Practices
 
 
+Impossible to find Paolo
 
 # Down there, everything is false yet
 
