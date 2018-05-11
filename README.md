@@ -45,7 +45,13 @@ Webcam Recognition
 │       │  haarcascade_russian_plate_number.xml
 │       │  haarcascade_smile.xml
 │       │  haarcascade_upperbody.xml
-
+│  
+└───data
+│       │   You will populate it
+│  
+└───model
+│       │   It will populate by it's own
+│  
 ```
 
 ### Installing
@@ -114,11 +120,50 @@ The thing is, Haar is not Google's top neural networks, hence you need to help h
   
   Assume Pépito has 30 pictures to train on, and Paolo only 5, you can be sure the model will say everyone is Pépito.
 
+
 * Crop your pictures to avoid loosing training examples
   
   If the prompt prints this `Impossible to find Paolo`, it means that on a picture, he wasn't able to recognise anyone. Meaning you just lost a training example.
 
 
+* Avoid twins
+
+Well, because... They are twins.
+
+
+#### Test your model
+
+You have now the folder `model` filled with two files:
+1. `model.xml` : The model :)
+2. `dict.pickle` : The mapper, because the model can associate only faces with numbers, this dictionary will map number to faces.
+
+But you don't have to care about it.
+
+Now, let see how the model recognise you:
+
+```shell
+python test_reco.py
+```
+
+You'll see the webcam fire, and see yourself in a window, with a green box around your face.
+
+Does the model recognises you? If not, you need to train it better, with more and better pictures. 
+
+Thanks for reading.
+
+Sorry for the long post, here a potatoe
+
+🥔
+
+## Authors
+
+* **Mickaël Labarrère** - [mlabarrere](https://github.com/mlabarrere)
+
+See also the list of [contributors](https://github.com/mlabarrere/webcam-recognition/graphs/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the Apache 2 License - see the [LICENSE.md](https://github.com/mlabarrere/webcam-recognition/LICENSE.md) file for details
 
 
 # Down there, everything is false yet
@@ -147,12 +192,6 @@ Give an example
 
 Add additional notes about how to deploy this on a live system
 
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
@@ -161,15 +200,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
-## Authors
 
-* **Mickaël Labarrère** - [mlabarrere](https://github.com/mlabarrere)
-
-See also the list of [contributors](https://github.com/mlabarrere/webcam-recognition/graphs/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the Apache 2 License - see the [LICENSE.md](https://github.com/mlabarrere/webcam-recognition/LICENSE.md) file for details
 
 ## Acknowledgments
 
