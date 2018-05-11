@@ -1,7 +1,7 @@
 # Webcam Recognition
 A tool for detecting people
 
-[![CodeFactor](https://www.codefactor.io/repository/github/mlabarrere/webcam_recognition/badge)](https://www.codefactor.io/repository/github/mlabarrere/webcam_recognition)  [![BCH compliance](https://bettercodehub.com/edge/badge/mlabarrere/Webcam_recognition?branch=master)](https://bettercodehub.com/)
+[![CodeFactor](https://www.codefactor.io/repository/github/mlabarrere/webcam-recognition/badge)](https://www.codefactor.io/repository/github/mlabarrere/webcam-recognition)  [![BCH compliance](https://bettercodehub.com/edge/badge/mlabarrere/webcam-recognition?branch=master)](https://bettercodehub.com/)
 
 Made with ❤ by Micky
 
