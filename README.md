@@ -9,10 +9,8 @@ Made with ❤ by Micky
 
 To get source code, run:
 ```
-https://github.com/mlabarrere/Webcam_recognition.git
+https://github.com/mlabarrere/webcam-recognition.git
 ```
-
-Vous pouvez suivre le mini tutoriel Git du projet dans Sources/Tutoriels/Tuto_Git.md ( A faire)
 
 
 
@@ -20,15 +18,39 @@ Vous pouvez suivre le mini tutoriel Git du projet dans Sources/Tutoriels/Tuto_Gi
 
 ```
 Webcam Recognition
-│   README.md (A faire)
-│   requirements.txt (A faire)
-│   setup.py (A faire)
+│   test_reco.py
+│   train_reco.py
+│   README.md (To Complete)
+│   requirements.txt (To Do)
+│   setup.py (To Do)
 │   LICENSE    
 
+└───src
+│       │   __init__.py
+│       │   lib.py
+│  
+└───haar
+│       │  haarcascade_eye.xml
+│       │  haarcascade_eye_tree_eyeglasses.xml
+│       │  haarcascade_frontalcatface.xml
+│       │  haarcascade_frontalcatface_extended.xml
+│       │  haarcascade_frontalface_alt.xml
+│       │  haarcascade_frontalface_alt2.xml
+│       │  haarcascade_frontalface_alt_tree.xml
+│       │  haarcascade_frontalface_default.xml
+│       │  haarcascade_fullbody.xml
+│       │  haarcascade_lefteye_2splits.xml
+│       │  haarcascade_licence_plate_rus_16stages.xml
+│       │  haarcascade_lowerbody.xml
+│       │  haarcascade_profileface.xml
+│       │  haarcascade_righteye_2splits.xml
+│       │  haarcascade_russian_plate_number.xml
+│       │  haarcascade_smile.xml
+│       │  haarcascade_upperbody.xml
 
 ```
 
-
+# Down there, everything is false yet
 
 ### Installing
 
