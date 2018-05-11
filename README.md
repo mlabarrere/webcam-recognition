@@ -124,7 +124,7 @@ The thing is, Haar is not Google's top neural networks, hence you need to help h
 
 * Crop your pictures to avoid loosing training examples
   
-  If the prompt prints this `Impossible to find Paolo`, it means that on a picture, he wasn't able to recognise anyone. Meaning you just lost a training example.
+  If the prompt prints this `Warning : Impossible to find Paolo`, it means that on a picture, he wasn't able to recognise anyone. Meaning you just lost a training example.
 
 
 * Turn lights on and show yourself
