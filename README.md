@@ -152,7 +152,7 @@ Sorry for the long post, here is a potatoe: 🥔
 
 
 
-## Authors
+## Author
 
 * **Mickaël Labarrère** - [mlabarrere](https://github.com/mlabarrere)
 
