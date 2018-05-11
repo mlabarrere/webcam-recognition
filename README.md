@@ -115,12 +115,12 @@ The thing is, Haar is not Google's top neural networks, hence you need to help h
 
 * Turn lights on and show yourself
 
-The model will have hard time recognising you in a middle of the night, or if you have changed drastically from your training pictures. Ex : You just shaved your beloved beard, you have no longer a skater's long hair, etc...
+  The model will have hard time recognising you in a middle of the night, or if you have changed drastically from your training pictures. Ex : You just shaved your beloved beard, you have no longer a skater's long hair, etc...
 
 
 * Avoid twins
 
-Well, because... They are twins.
+  Well, because... They are twins.
 
 
 #### Test your model
