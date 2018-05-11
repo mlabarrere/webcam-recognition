@@ -110,10 +110,12 @@ Total labels:  35
 
 The thing is, Haar is not Google's top neural networks, hence you need to help him to do his work.
 
-1. Balance the number of pictures over people to reduce over/under fitting.
+* Balance the number of pictures over people to reduce over/under fitting.
+  
   Assume Pépito has 30 pictures to train on, and Paolo only 5, you can be sure the model will say everyone is Pépito.
 
-2. Crop your pictures to avoid loosing training examples
+* Crop your pictures to avoid loosing training examples
+  
   If the prompt prints this `Impossible to find Paolo`, it means that on a picture, he wasn't able to recognise anyone. Meaning you just lost a training example.
 
 
