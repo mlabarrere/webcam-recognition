@@ -103,12 +103,15 @@ The prompt will tell you things like:
 
 ```
 Preparing data...
-Training for Pepito, Paolo          # Check if this is ok
+Training for Pepito, Paolo               # Check if this is ok
 [ INFO:0] Initialize OpenCL runtime...   # You just don't care about it
-
 Data prepared
-Total faces:  35                    # Here, it will tell you how many faces and label the program found
-Total labels:  35
+
+Training the model...
+Training complete
+
+Saving model...
+Saving done
 ```
 
 #### Train your model - Best Practices
