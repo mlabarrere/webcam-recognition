@@ -1,9 +1,8 @@
 # Webcam Recognition
-A tool for detecting people
+A tool for detecting people in front of your webcam
 
 [![CodeFactor](https://www.codefactor.io/repository/github/mlabarrere/webcam-recognition/badge)](https://www.codefactor.io/repository/github/mlabarrere/webcam-recognition)  [![BCH compliance](https://bettercodehub.com/edge/badge/mlabarrere/webcam-recognition?branch=master)](https://bettercodehub.com/)
 
-Made with ❤ by Micky
 
 ## Download
 
@@ -103,12 +102,15 @@ The prompt will tell you things like:
 
 ```
 Preparing data...
-Training for Pepito, Paolo          # Check if this is ok
+Training for Pepito, Paolo               # Check if this is ok
 [ INFO:0] Initialize OpenCL runtime...   # You just don't care about it
-
 Data prepared
-Total faces:  35                    # Here, it will tell you how many faces and label the program found
-Total labels:  35
+
+Training the model...
+Training complete
+
+Saving model...
+Saving done
 ```
 
 #### Train your model - Best Practices
@@ -174,7 +176,7 @@ See also the list of [contributors](https://github.com/mlabarrere/webcam-recogni
 This project is licensed under the Apache 2 License - see the [LICENSE.md](https://github.com/mlabarrere/webcam-recognition/LICENSE.md) file for details
 
 
-
+Made with ❤ by Micky
 
 
 # Down there, everything is false yet
