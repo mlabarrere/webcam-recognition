@@ -24,78 +24,7 @@ Webcam Recognition
 │   requirements.txt (A faire)
 │   setup.py (A faire)
 │   LICENSE    
-│
-└───backend
-│   │   __init__.py (A vérifier si nécéssaire et faire)
-│   │   README.md (A faire)
-│   │   Switch.py (A faire proprement)
-│   │
-│   └───Modules
-│       │   __init__.py (A faire proprement)
-│       │   wrapper.py
-│       │   module_actu.py
-│       │   module_Date_Heure.py
-│       │   module_listecourse.py
-│       │   module_marmiton.py
-│       │   module_meteo.py
-│       │   module_wikipedia.py
-│       │   module_YouTube.py
-│       │   vocal_synthesis.py
-│       │
-│       └───Rires
-│           │   [Fichiers de rires creepy mp3]
-│
-└───frontend
-│   │   README.md (A faire)
-│   │	main.py
-│   │ 
-│   │
-│   └───templates
-│   │   │   courses.html
-│   │   │   meteo.html
-│   │   │   news.html
-│   │
-│   └───static
-│	    └───css
-│	    │   │   style.css
-│	    │
-│	    └───img
-│	    │   │   [Beaucoup de trucs]
-│	    │
-│	    └───js
-│	    │   │   prefixfree.min.js
-│	    │   │   voice_reactor.js
-│	    │   │   voice-recognition.js
-│	    │
-│	    └───polices
-│	        │   CaviarDreams.ttf
-│	        │   CaviarDreams_Bold.ttf
-│	        │   CaviarDreams_BoldItalic.ttf
-│	        │   CaviarDreams_Italic.ttf
-│	        │   RedVelvet.ttf
-│
-└───data
-│   │   liste_courses.txt
-│      
-└───test
-│   │   README.md (A faire)
-│   └───benchmarks
-│   │   │   README.md (A faire)
-│   │
-│   └───integration
-│   │   │   README.md (A faire)
-│   │
-│   └───unit
-│       │   README.md (A faire)
-│       │   Date_Heure.ipynb
-│       │   listecourse_test_U.ipynb
-│       │   marmiton_test_U.ipynb
-│       │   wiki_Test_U.ipynb
-│       │   YouTube_Test_U.ipynb
-│
-└───tools
-    │   README.md (A faire)
-     Note : [c'est là ou je stock les codes pas encore utiles]
+
 
 ```
 
