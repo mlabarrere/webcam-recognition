@@ -121,6 +121,8 @@ The thing is, Haar is not Google's top neural networks, hence you need to help h
     1. There is multiple faces on this picture
     2. The algorithm cannot detect a face from a weird light
     3. The picture has no background, do not crop the face to make the face filling the picture. Let some air. 
+  
+  
   In any cases: you just lost a training example.
 
 
