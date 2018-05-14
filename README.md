@@ -61,7 +61,7 @@ Cool, you've got everything ready to run the program
 
 The model is based on [Haar like features](https://en.wikipedia.org/wiki/Haar-like_feature), hence, you need to train your model.
 
-For this, you need to gather pictures of you and your friends (ask them before). Then put all thoses pictures into separated named folders ìnto the `data` folder.
+For this, you need to gather pictures of you and your friends (ask them before). Then put all thoses pictures into separated named folders ìnto the `data` folder. Please, use only common letters (look how I had to remove the `é` from `Pépito`.
 
 To train your model to detect Pépito and Paolo, do something like this:
 
