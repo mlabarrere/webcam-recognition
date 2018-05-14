@@ -175,7 +175,6 @@ See also the list of [contributors](https://github.com/mlabarrere/webcam-recogni
 This project is licensed under the Apache 2 License - see the [LICENSE.md](https://github.com/mlabarrere/webcam-recognition/LICENSE.md) file for details
 
 
-Made with ❤ by Micky
 
 ## Acknowledgments
 
