@@ -43,10 +43,10 @@ Webcam Recognition
 
 ### Installing
 
-First, let's install the required libraries
+First, let's install the required libraries, `cd` to the root of the project where `requirements.txt` is :
 
 ```shell
-cd yourDirectory/webcam-recognition/requirements.txt
+cd yourDirectory/webcam-recognition/
 ```
 
 then
