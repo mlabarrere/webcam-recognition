@@ -116,7 +116,12 @@ The thing is, Haar is not Google's top neural networks, hence you need to help h
 
 * Crop your pictures to avoid loosing training examples:
   
-  If the prompt prints this `Impossible to find Paolo`, it means that on a picture, he wasn't able to recognise anyone. So there is two main reason of this : There is multiple faces on this picture, or the algorithm cannot detect a face from a weird light. in any cases: you just lost a training example.
+  If the prompt prints this `Impossible to find Paolo`, it means that on a picture, he wasn't able to recognise anyone. 
+  So there is three main reason of this : 
+    There is multiple faces on this picture
+    The algorithm cannot detect a face from a weird light
+    The picture has no background, do not crop the face to make the face filling the picture. Let some air. 
+  In any cases: you just lost a training example.
 
 
 * Turn lights on and show yourself:
