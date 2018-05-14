@@ -105,6 +105,9 @@ Saving done
 
 The thing is, Haar is not Google's top neural networks, hence you need to help him to do his work.
 
+* Quality over quantity
+  One good picture, like one from a recent ID card, will always be better than ten from your last Project X party.
+
 * Balance the number of pictures over people to reduce over/under fitting.
   
   Assume Pépito has 30 pictures to train on, and Paolo only 5, you can be sure the model will say everyone is Pépito.
@@ -112,7 +115,7 @@ The thing is, Haar is not Google's top neural networks, hence you need to help h
 
 * Crop your pictures to avoid loosing training examples
   
-  If the prompt prints this `Impossible to find Paolo`, it means that on a picture, he wasn't able to recognise anyone. Meaning you just lost a training example.
+  If the prompt prints this `Impossible to find Paolo`, it means that on a picture, he wasn't able to recognise anyone. So there is two main reason of this : There is multiple faces on this picture, or the algorithm cannot detect a face from a weird light. in any cases: you just lost a training example.
 
 
 * Turn lights on and show yourself
