@@ -5,6 +5,8 @@ A tool for detecting who is in front of your webcam
 
 [![CodeFactor](https://www.codefactor.io/repository/github/mlabarrere/webcam-recognition/badge)](https://www.codefactor.io/repository/github/mlabarrere/webcam-recognition)  [![BCH compliance](https://bettercodehub.com/edge/badge/mlabarrere/webcam-recognition?branch=master)](https://bettercodehub.com/)
 
+[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2549/badge)](https://bestpractices.coreinfrastructure.org/projects/2549)
+
 
 ## Download
 
