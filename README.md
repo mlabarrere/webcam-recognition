@@ -2,13 +2,12 @@
 A tool for detecting who is in front of your webcam
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/1229cb95b4df4cdb889ccffa535da5f0)](https://app.codacy.com/app/mickael.labarrere/webcam-recognition?utm_source=github.com&utm_medium=referral&utm_content=mlabarrere/webcam-recognition&utm_campaign=Badge_Grade_Settings)
+
 [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
 
 [![CodeFactor](https://www.codefactor.io/repository/github/mlabarrere/webcam-recognition/badge)](https://www.codefactor.io/repository/github/mlabarrere/webcam-recognition)  [![BCH compliance](https://bettercodehub.com/edge/badge/mlabarrere/webcam-recognition?branch=master)](https://bettercodehub.com/)
 
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2549/badge)](https://bestpractices.coreinfrastructure.org/projects/2549)
-
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/35bb944e3dbc4471b9aa8f09173414e2)](https://www.codacy.com/app/mickael.labarrere/webcam-recognition?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=mlabarrere/webcam-recognition&amp;utm_campaign=Badge_Grade)
 
 ## Download
 
