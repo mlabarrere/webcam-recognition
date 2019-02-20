@@ -7,6 +7,7 @@ A tool for detecting who is in front of your webcam
 
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2549/badge)](https://bestpractices.coreinfrastructure.org/projects/2549)
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/35bb944e3dbc4471b9aa8f09173414e2)](https://www.codacy.com/app/mickael.labarrere/webcam-recognition?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=mlabarrere/webcam-recognition&amp;utm_campaign=Badge_Grade)
 
 ## Download
 
