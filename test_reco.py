@@ -1,6 +1,4 @@
 import cv2
-import os
-import numpy as np
 import pickle
 from src.lib import detect_face
 
@@ -26,24 +24,22 @@ video_capture = cv2.VideoCapture(0)
 while True:
     # Capture frame-by-frame
     ret, frame = video_capture.read()
-
-    
     face, rect = detect_face(frame)
 
-    #predict the image using our face recognizer 
+    # Predict the image using our face recognizer
     if face is not None:
-        id_label ,conf = face_recognizer.predict(face)
+        id_label, conf = face_recognizer.predict(face)
         
-        if conf>65 : 
-            #get name of respective label returned by face recognizer
+        if conf > 65:
+            # Get name of respective label returned by face recognizer
             label_text = dictionary_people[id_label] + " " + str(int(conf))+"%"
         else:
-            label_text="Unknown"
+            label_text = "Unknown"
     
-        #draw a rectangle around face detected
+        # Draw a rectangle around face detected
         draw_rectangle(frame, rect)
 
-        #draw name of predicted person
+        # Draw name of predicted person
         draw_text(frame, label_text, rect[0], rect[1]-5)
 
     # Display the resulting frame
@@ -52,6 +48,6 @@ while True:
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
-# When everything is done, release the capture
+# When everything is done, release the capture and destroy the windows
 video_capture.release()
 cv2.destroyAllWindows()

@@ -13,7 +13,7 @@ subject_folder_names = os.listdir(dir_name)
 
 assert subject_folder_names, "You forgot to place a training folder.\nPlease refer to {}".format(github_readme)
 
-def prepare_training_data():    
+def prepare_training_data():
     nb_people = 0
     faces, labels = [], []
     
